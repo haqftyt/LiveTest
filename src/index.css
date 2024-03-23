@@ -4,6 +4,9 @@
   padding:0;
   font-family: 'Poppins', sans-serif;
 }
+html,body{
+  max-width:100%;
+}
 /*Header components styling*/
 .brand{
   font-weight:bold;
