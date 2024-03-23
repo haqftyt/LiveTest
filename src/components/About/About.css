@@ -16,6 +16,11 @@
     font-size:30px;
     margin-bottom:30px;
 }
+@media screen and (max-width:600px){
+    .imgblock{
+        margin-bottom:0;
+    }
+}
 .Col p{
     font-size:22px;
     margin:0 20px;

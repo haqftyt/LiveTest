@@ -6,7 +6,7 @@ const About = () => {
     <section id="about" className='pad'>
         <Container>
       <Row>
-        <Col className='Col'>
+        <Col className='Col imgblock'>
         <img
               alt=""
               src="https://png.pngtree.com/png-clipart/20230206/ourmid/pngtree-tasty-emoji-icon-in-yellow-png-image_6585504.png"
