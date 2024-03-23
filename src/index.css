@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Poppins', sans-serif;
+}
+/*Header components styling*/
+.brand{
+  font-weight:bold;
+  color:white;
+  text-shadow: 3px 2px 3px black;
+}
+.brand:hover{
+  color:white;
+}
+.Navbar-color{
+  background-color: rgb(189, 8, 8);
+}
+.Nav{
+  font-weight: bold;
+  font-size:17px;
+}
+.Nav-Link{
+  color:white;
+  padding:10px;
+}
+.Nav-Link:hover{
+ background-color: bisque;
+ border-radius: 5px;
+ color:black;
+}
+.button{
+  margin:10px;
+  background-color: red;
+  font-size: 17px;
+  font-weight: bold;
+}
+/*Banner components*/
+.carouselimage{
+  width:100%;
+  height:70vh;
+  opacity:0.8;
+}
+.CarouselCaption{
+  position:absolute;
+  top:35%;
+}
+.CarouselCaption h3{
+  font-size:60px;
+  color:rgb(3, 3, 24);
+}
+/* Custom styles for the carousel arrows */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  /* Change the background color */
+  border-radius: 50%; /* Make it a circle */
+  width:50px;
+  height:50px;
+  margin-top: -20px; /* Adjust vertical positioning */
+  padding:30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media screen and (max-width:600px){
+  .CarouselCaption h3{
+    font-size:35px;
+    color:yellow;
+  }
 }

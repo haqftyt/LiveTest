@@ -1,0 +1,33 @@
+.Col{
+    margin:20px 0;
+}
+#food{
+    background-color: cyan;
+    padding:30px 0;
+}
+.Card{
+    box-shadow: 4px 3px 7px black;
+}
+.Card:hover{
+    background-color: red;
+    color:white;
+    cursor: pointer;
+}
+#food h2{
+    text-align: center;
+}
+
+.cardimg{
+    width:250px;
+    height:230px;
+}
+@media screen and (min-width:1400px){
+    .Row{
+        width:1200px;
+        margin:0 50px;
+    }
+}
+
+
+
+   
