@@ -18,7 +18,7 @@ const About = () => {
             <p><b>Tasty Mealoo</b> was established in the year 2000. we has been continuing our quality and services in the food for the past 24 years.
             The Aim and Quote of our management is hustle,
             loyality,respect with customers.Delicious Food for your deserving ones....
-            A healthy diet is essential for good health and nutrition.Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.</p>
+            A healthy diet is essential for good health and nutrition.Good,Better and Best Food.</p>
         </Col>
       </Row>
     </Container>
